@@ -10,5 +10,5 @@ char_d: list = []; [char_d.append(1) for _ in range(1, ord("d") + 1)]
 
 helloworld: list = [char_H, char_e, char_l, char_l, char_o, char_space, char_W, char_o, char_r, char_l, char_d]
 
-for i in helloworld:
-    print(chr(sum(i)), end="")
+for char in helloworld:
+    print(chr(sum(char)), end="")
